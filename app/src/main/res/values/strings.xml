@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="url_privacy_policy">https://adeekshith.github.io/watomatic/#/privacy-policy.md</string>
     <string name="adeekshith_twitter_handle" translatable="false">\@adeekshith</string>
     <string name="url_adeekshith_twitter" translatable="false">https://twitter.com/adeekshith</string>
@@ -44,12 +44,12 @@
     <!-- Custom message editor -->
     <string name="save">Save</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>View templates from community and share yours too ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Append Watomatic arribution to help spread the word</string>
+    <string name="append_watomatic_arribution_checkbox_label">Append Wasupport arribution to help spread the word</string>
     <string name="sent_using_Watomatic">Sent using watomatic.app</string>
 
-    <string name="share_app_text">I am using Watomatic to break away from WhatsApp. Try it out: watomatic.app</string>
+    <string name="share_app_text">I am using Wasupport to break away from WhatsApp. Try it out: watomatic.app</string>
     <string name="share">Share</string>
-    <string name="share_subject">Watomatic: Auto Reply for WhatsApp</string>
+    <string name="share_subject">Wasupport: Auto Reply for WhatsApp</string>
     <string name="watomatic_community_label"><u>Community</u></string>
     <string name="watomatic_subreddit_label"><u>Let\'s discuss\nr/watomatic</u></string>
     <string name="watomatic_subreddit_url" translatable="false">https://www.reddit.com/r/watomatic</string>
@@ -60,8 +60,8 @@
 
     <!-- Share debug logs -->
     <string name="app_logs_file_name" translatable="false">WatomaticLogs.txt</string>
-    <string name="share_email_body" translatable="false">Hi Team Watomatic,\nPlease find the attachment of the app logs.</string>
-    <string name="share_email_subject" translatable="false">Watomatic AppLogs</string>
+    <string name="share_email_body" translatable="false">Hi Team Wasupport,\nPlease find the attachment of the app logs.</string>
+    <string name="share_email_subject" translatable="false">Wasupport AppLogs</string>
     <string name="share_email_id" translatable="false">watomatic@deekshith.in</string>
     <string name="share_email_err_msg" translatable="false">Couldnot find any application to process this request</string>
 
@@ -81,8 +81,8 @@
     <string name="add_attribution_label">Add Attribution</string>
     <string name="enabled_apps_title">Enabled Apps</string>
     <string name="always_on_notification">Always-On notification</string>
-    <string name="display_persistent_notification_summary">Display a persistent notification to ensure Watomatic is not killed by the system</string>
-    <string name="enable_auto_start_summary">Some devices might need you to manually enable Auto start for Watomatic from device settings</string>
+    <string name="display_persistent_notification_summary">Display a persistent notification to ensure Wasupport is not killed by the system</string>
+    <string name="enable_auto_start_summary">Some devices might need you to manually enable Auto start for Wasupport from device settings</string>
 
     <!-- Local language names (non translatable) -->
     <string name="lang_en" translatable="false">English (en)</string>
@@ -147,7 +147,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">AutoStart Permission</string>
     <string name="running_in_the_background">Running in the background</string>
-    <string name="auto_start_permission_dialog_message">Enable \"Auto Start\" permission in device settings to allow Watomatic to start on device restart.</string>
+    <string name="auto_start_permission_dialog_message">Enable \"Auto Start\" permission in device settings to allow Wasupport to start on device restart.</string>
     <string name="device_based_settings_message">Note: Settings may vary or may not be available based on your device</string>
     <string name="setting_not_available_for_device">This setting is not available or may not be needed for your device.</string>
     <string name="enable_auto_start_setting">Proceed</string>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="about">Quant a</string>
     <string name="settings">Configuració</string>
     <string name="privacy_policy_label">Política de privadesa</string>
-    <string name="service_name">Watomatic: Accés a missatges</string>
+    <string name="service_name">Wasupport: Accés a missatges</string>
     <string name="mainAutoReplyTextPlaceholder">(Resposta personalitzada)</string>
     <string name="auto_reply_default_message">Resposta automàtica\n⚠️ Usuari no disponible</string>
     <string name="mainAutoReplyLabel">Text de resposta automàtica</string>
@@ -37,11 +37,11 @@
     <!-- Custom message editor -->
     <string name="save">Desa</string>
     <string name="tip_view_messages_from_fellow_users">🦩<u>Mostra i comparteix plantilles amb la comunitat➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Permet l\'atribució del Watomatic per difondre el programa</string>
+    <string name="append_watomatic_arribution_checkbox_label">Permet l\'atribució del Wasupport per difondre el programa</string>
     <string name="sent_using_Watomatic">Enviat amb watomatic.app</string>
-    <string name="share_app_text">Utilitzo el Watomatic per deixar d\'usar el WhatsApp. Proveu-ho: watomatic.app</string>
+    <string name="share_app_text">Utilitzo el Wasupport per deixar d\'usar el WhatsApp. Proveu-ho: watomatic.app</string>
     <string name="share">Comparteix</string>
-    <string name="share_subject">Watomatic: Resposta automàtica per al WhatsApp</string>
+    <string name="share_subject">Wasupport: Resposta automàtica per al WhatsApp</string>
     <string name="watomatic_community_label"><u>Comunitat</u></string>
     <string name="watomatic_subreddit_label"><u>Discussió\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">Novetats</string>
@@ -56,8 +56,8 @@
     <string name="add_attribution_label">Afegeix una atribució</string>
     <string name="enabled_apps_title">Aplicacions habilitades</string>
     <string name="always_on_notification">Mostra sempre les notificacions</string>
-    <string name="display_persistent_notification_summary">Mostra una notificació persistent per evitar que el Watomatic sigui tancat pel sistema</string>
-    <string name="enable_auto_start_summary">Alguns dispositius necessiten que activeu de forma manual l\'inici automàtic per al Watomatic des del panel de configuració del dispositiu</string>
+    <string name="display_persistent_notification_summary">Mostra una notificació persistent per evitar que el Wasupport sigui tancat pel sistema</string>
+    <string name="enable_auto_start_summary">Alguns dispositius necessiten que activeu de forma manual l\'inici automàtic per al Wasupport des del panel de configuració del dispositiu</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
     <!-- Language codes (non translatable) -->
@@ -70,7 +70,7 @@
     <string name="app_rating_dialog_rate_later_title">Potser més tard</string>
     <string name="app_rating_goto_store_dialog_title">Moltes gràcies!</string>
     <string name="app_rating_goto_store_dialog_msg">Compartiu aquesta puntuació al Google Play Store, tocant el botó «Continua»\!</string>
-    <string name="app_rating_pitch">El Watomatic és gratuït, sense publicitat ni rastrejadors, de codi obert i mantingut per gent com ara vós o jo.
+    <string name="app_rating_pitch">El Wasupport és gratuït, sense publicitat ni rastrejadors, de codi obert i mantingut per gent com ara vós o jo.
         La vostra opinió és l\'únic que ens mou a continuar.</string>
     <string name="app_rating_goto_store_dialog_button1_title">No m’interessa</string>
     <string name="app_rating_goto_store_dialog_button2_title">Continua</string>
@@ -81,7 +81,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">Permís d\'inici automàtic</string>
     <string name="running_in_the_background">Execució en rerefons</string>
-    <string name="auto_start_permission_dialog_message">Habiliteu el permís \"Inicia automàticament\" a la configuració del dispositiu perquè el Watomatic s\'iniciï en arrencar.</string>
+    <string name="auto_start_permission_dialog_message">Habiliteu el permís \"Inicia automàticament\" a la configuració del dispositiu perquè el Wasupport s\'iniciï en arrencar.</string>
     <string name="device_based_settings_message">Nota: Aquesta opció pot variar o no estar disponible al vostre dispositiu</string>
     <string name="setting_not_available_for_device">Aquesta opció no està disponible o no és necessària al vostre dispositiu.</string>
     <string name="enable_auto_start_setting">Continua</string>
@@ -114,7 +114,7 @@
     <string name="donations_goal_title_70">Progrés lent i constant</string>
     <string name="donations_goal_70">Característiques menors i millores de la interfície</string>
     <string name="donations_goal_title_100">Mode d\'optimització</string>
-    <string name="donations_goal_100">Ajudeu-nos a convertir el Watomatic en l\'aplicació de resposta automàtica més avançada</string>
+    <string name="donations_goal_100">Ajudeu-nos a convertir el Wasupport en l\'aplicació de resposta automàtica més avançada</string>
     <string name="donation_progress_label">de l\'objectiu mensual</string>
     <string name="add_custom_contact">Afegeix un nom de contacte personalitzat</string>
     <string name="contact_permission_suggestion_dialog_msg">Es requereix l\'accés als contactes per crear filtres de resposta basats en aquest criteri. Si no permeteu l\'accés, només podreu crear filtres inserint la informació manualment. Voleu habilitar-ho?</string>

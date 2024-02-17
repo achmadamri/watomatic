@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="about">О приложении</string>
     <string name="settings">Настройки</string>
     <string name="privacy_policy_label">Политика конфиденциальности</string>
@@ -37,11 +37,11 @@
     <!-- Custom message editor -->
     <string name="save">Сохранить</string>
     <string name="tip_view_messages_from_fellow_users"><u>Посмотреть шаблоны сообщений сообщества и поделиться своим ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Добавить ссылку на Watomatic, чтобы помочь другим</string>
+    <string name="append_watomatic_arribution_checkbox_label">Добавить ссылку на Wasupport, чтобы помочь другим</string>
     <string name="sent_using_Watomatic">Отправлено с помощью watomatic.app</string>
-    <string name="share_app_text">Я использую Watomatic для миграции с WhatsApp. Попробуйте и вы: https://watomatic.app/ru/</string>
+    <string name="share_app_text">Я использую Wasupport для миграции с WhatsApp. Попробуйте и вы: https://watomatic.app/ru/</string>
     <string name="share">Поделиться</string>
-    <string name="share_subject">Watomatic: Автоответчик для WhatsApp</string>
+    <string name="share_subject">Wasupport: Автоответчик для WhatsApp</string>
     <string name="watomatic_subreddit_label"><u>Обсуждаем\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">Что нового?</string>
     <!-- Share debug logs -->
@@ -52,8 +52,8 @@
     <string name="preference_category_troubleshooting_label">Помощь</string>
     <string name="enable_auto_start_label">Запускать при загрузке</string>
     <string name="always_on_notification">Постоянно отображаемое уведомление</string>
-    <string name="display_persistent_notification_summary">Отображать постоянное уведомление для предотвращения остановки Watomatic системой</string>
-    <string name="enable_auto_start_summary">Для некоторых устройств может потребоваться включить автоматический запуск Watomatic при загрузке в настройках устройства</string>
+    <string name="display_persistent_notification_summary">Отображать постоянное уведомление для предотвращения остановки Wasupport системой</string>
+    <string name="enable_auto_start_summary">Для некоторых устройств может потребоваться включить автоматический запуск Wasupport при загрузке в настройках устройства</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
     <!-- Language codes (non translatable) -->
@@ -77,7 +77,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">Разрешить автозапуск</string>
     <string name="running_in_the_background">Работает в фоновом режиме</string>
-    <string name="auto_start_permission_dialog_message">Включите \"Автоматический запуск\" в настройках устройства, чтобы позволить Watomatic запускаться при перезагрузке устройства.</string>
+    <string name="auto_start_permission_dialog_message">Включите \"Автоматический запуск\" в настройках устройства, чтобы позволить Wasupport запускаться при перезагрузке устройства.</string>
     <string name="device_based_settings_message">Примечание: В зависимости от устройства настройки могут отличаться или отсутствовать</string>
     <string name="setting_not_available_for_device">Этот параметр недоступен либо не требуется для вашего устройства.</string>
     <string name="enable_auto_start_setting">Продолжить</string>

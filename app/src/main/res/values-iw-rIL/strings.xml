@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="about">אודות</string>
     <string name="settings">אפשרויות</string>
     <string name="privacy_policy_label">מדיניות פרטיות</string>
@@ -37,11 +37,11 @@
     <!-- Custom message editor -->
     <string name="save">שמירה</string>
     <string name="tip_view_messages_from_fellow_users">צפו בתבניות מוצעות על ידי הקהילה וחלוק גם את שלך</string>
-    <string name="append_watomatic_arribution_checkbox_label">אישור סיומת מאת יוצרי Watomatic כדי לעזור להפיץ את הבשורה</string>
-    <string name="sent_using_Watomatic">נשלח באמצעות Watomatic.app</string>
-    <string name="share_app_text">אני עושה שימוש ב-Watomatic כדי להתאוורר ולהתרחק מוואטסאפ. נסו זאת בעצמכם watomatic.app</string>
+    <string name="append_watomatic_arribution_checkbox_label">אישור סיומת מאת יוצרי Wasupport כדי לעזור להפיץ את הבשורה</string>
+    <string name="sent_using_Watomatic">נשלח באמצעות Wasupport.app</string>
+    <string name="share_app_text">אני עושה שימוש ב-Wasupport כדי להתאוורר ולהתרחק מוואטסאפ. נסו זאת בעצמכם watomatic.app</string>
     <string name="share">שיתוף</string>
-    <string name="share_subject">Watomatic: מענה אוטומטי לוואטסאפ</string>
+    <string name="share_subject">Wasupport: מענה אוטומטי לוואטסאפ</string>
     <string name="watomatic_community_label"><u>קהילה</u></string>
     <string name="watomatic_subreddit_label"><u>בואו לדון\n r/watomatic</u></string>
     <string name="watomatic_whatsnew_label">מה חדש?</string>
@@ -56,7 +56,7 @@
     <string name="add_attribution_label">הוספת תכונה</string>
     <string name="enabled_apps_title">אפליקציות מאופשרות</string>
     <string name="always_on_notification">התראות מאופשרות תמיד</string>
-    <string name="display_persistent_notification_summary">אפשר הצגת התראות ללא הפסקה כדי להבטיח ש-Watomatic לא מכובה על ידי המערכת</string>
+    <string name="display_persistent_notification_summary">אפשר הצגת התראות ללא הפסקה כדי להבטיח ש-Wasupport לא מכובה על ידי המערכת</string>
     <string name="enable_auto_start_summary">חלק מהמכשירים דורשים הגדרה ידנית של התחלה אוטומטית באפשרויות המכשיר</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
@@ -80,7 +80,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">הרשאה להתחלה אוטומטית</string>
     <string name="running_in_the_background">פועל ברקע</string>
-    <string name="auto_start_permission_dialog_message">אפשרו הרשאות \"הפעלה אוטומטית\" בהגדרות המכשיר כדי ש-Watomatic יפעל אוטומטית באתחול המכשיר.</string>
+    <string name="auto_start_permission_dialog_message">אפשרו הרשאות \"הפעלה אוטומטית\" בהגדרות המכשיר כדי ש-Wasupport יפעל אוטומטית באתחול המכשיר.</string>
     <string name="device_based_settings_message">שימו לב: ההגדרות עשויו להשתנות או להיות לא זמינות בהתאם לסוג המכשיר שלך</string>
     <string name="setting_not_available_for_device">אפשרות זו אינה זמינה או שאינה נדרשת במכשירך.</string>
     <string name="enable_auto_start_setting">המשך</string>

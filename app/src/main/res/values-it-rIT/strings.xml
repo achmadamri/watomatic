@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="about">Info</string>
     <string name="settings">Impostazioni</string>
     <string name="privacy_policy_label">Norme sulla privacy</string>
@@ -36,11 +36,11 @@
     <!-- Custom message editor -->
     <string name="save">Salva</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Visualizza i modelli della community e condividi anche il tuo ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Aggiungi il riferimento a Watomatic per far sapere agli altri questa app</string>
+    <string name="append_watomatic_arribution_checkbox_label">Aggiungi il riferimento a Wasupport per far sapere agli altri questa app</string>
     <string name="sent_using_Watomatic">Inviato con watomatic.app</string>
-    <string name="share_app_text">Sto usando Watomatic per staccarmi da WhatsApp. Provalo: watomatic.app</string>
+    <string name="share_app_text">Sto usando Wasupport per staccarmi da WhatsApp. Provalo: watomatic.app</string>
     <string name="share">Condividi</string>
-    <string name="share_subject">Watomatic: Risposta automatica per WhatsApp</string>
+    <string name="share_subject">Wasupport: Risposta automatica per WhatsApp</string>
     <string name="watomatic_subreddit_label"><u>Discutiamo\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">Cosa c\'è di nuovo?</string>
     <!-- Share debug logs -->

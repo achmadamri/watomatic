@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="about">Sobre</string>
     <string name="settings">Definições</string>
     <string name="privacy_policy_label">Política de Privacidade</string>
@@ -30,9 +30,9 @@
     <!-- Custom message editor -->
     <string name="save">Guardar</string>
     <string name="sent_using_Watomatic">Enviado através do watomatic.app</string>
-    <string name="share_app_text">Estou a usar Watomatic para deixar o WhatsApp. Experimente: watomatic.app</string>
+    <string name="share_app_text">Estou a usar Wasupport para deixar o WhatsApp. Experimente: watomatic.app</string>
     <string name="share">Partilhar</string>
-    <string name="share_subject">Watomatic: Resposta automática para WhatsApp</string>
+    <string name="share_subject">Wasupport: Resposta automática para WhatsApp</string>
     <string name="watomatic_whatsnew_label">O que há de novo?</string>
     <!-- Share debug logs -->
     <!-- keys and app internal strings -->

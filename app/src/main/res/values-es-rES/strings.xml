@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="url_privacy_policy">https://adeekshith.github.io/watomatic/#/privacy-policy.md</string>
     <string name="about">Acerca de</string>
     <string name="settings">Ajustes</string>
     <string name="privacy_policy_label">Política de privacidad</string>
-    <string name="service_name">Watomatic: Acceso a mensajes</string>
+    <string name="service_name">Wasupport: Acceso a mensajes</string>
     <string name="mainAutoReplyTextPlaceholder">(Respuesta personalizada)</string>
     <string name="auto_reply_default_message">Respuesta automática\n⚠️ Usuario no disponible</string>
     <string name="mainAutoReplyLabel">Texto de respuesta automática</string>
@@ -38,11 +38,11 @@
     <!-- Custom message editor -->
     <string name="save">Guardar</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Ver plantillas de la comunidad y compartir las tuyas también ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Añadir atribución a Watomatic para ayudar a correr la voz</string>
+    <string name="append_watomatic_arribution_checkbox_label">Añadir atribución a Wasupport para ayudar a correr la voz</string>
     <string name="sent_using_Watomatic">Enviado a través de watomatic.app</string>
-    <string name="share_app_text">Estoy usando Watomatic para abandonar WhatsApp. Pruébalo: watomatic.app</string>
+    <string name="share_app_text">Estoy usando Wasupport para abandonar WhatsApp. Pruébalo: watomatic.app</string>
     <string name="share">Compartir</string>
-    <string name="share_subject">Watomatic: respuesta automática para WhatsApp</string>
+    <string name="share_subject">Wasupport: respuesta automática para WhatsApp</string>
     <string name="watomatic_community_label"><u>Comunidad</u></string>
     <string name="watomatic_subreddit_label"><u>Hablemos de\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">Novedades</string>
@@ -57,8 +57,8 @@
     <string name="add_attribution_label">Añadir Atribución</string>
     <string name="enabled_apps_title">Aplicaciones habilitadas</string>
     <string name="always_on_notification">Notificación siempre activa</string>
-    <string name="display_persistent_notification_summary">Crea una notificación persistente para evitar que el sistema finalice el Watomatic</string>
-    <string name="enable_auto_start_summary">Algunos dispositivos pueden necesitar habilitar manualmente el inicio automático para Watomatic desde la configuración del dispositivo</string>
+    <string name="display_persistent_notification_summary">Crea una notificación persistente para evitar que el sistema finalice el Wasupport</string>
+    <string name="enable_auto_start_summary">Algunos dispositivos pueden necesitar habilitar manualmente el inicio automático para Wasupport desde la configuración del dispositivo</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
     <!-- Language codes (non translatable) -->
@@ -82,7 +82,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">Permiso de inicio automático</string>
     <string name="running_in_the_background">Ejecución en segundo plano</string>
-    <string name="auto_start_permission_dialog_message">Activa el permiso de \"Inicio automático\" en la configuración del dispositivo para permitir que Watomatic se inicie al reiniciar el dispositivo.</string>
+    <string name="auto_start_permission_dialog_message">Activa el permiso de \"Inicio automático\" en la configuración del dispositivo para permitir que Wasupport se inicie al reiniciar el dispositivo.</string>
     <string name="device_based_settings_message">Nota: la configuración puede variar o no estar disponible para este dispositivo</string>
     <string name="setting_not_available_for_device">Esta configuración no está disponible o no es necesaria para este dispositivo.</string>
     <string name="enable_auto_start_setting">Continuar</string>

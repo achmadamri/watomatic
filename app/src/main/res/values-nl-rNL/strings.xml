@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="about">Over</string>
     <string name="settings">Instellingen</string>
     <string name="privacy_policy_label">Privacybeleid</string>
@@ -37,11 +37,11 @@
     <!-- Custom message editor -->
     <string name="save">Opslaan</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Bekijk sjablonen van de community en deel ook je eigen ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Voeg Watomatic-vermelding toe om te helpen het woord te verspreiden</string>
+    <string name="append_watomatic_arribution_checkbox_label">Voeg Wasupport-vermelding toe om te helpen het woord te verspreiden</string>
     <string name="sent_using_Watomatic">Verzonden met watomatic.app</string>
-    <string name="share_app_text">Ik gebruik Watomatic om los te breken van WhatsApp. Probeer het uit: watomatic.app</string>
+    <string name="share_app_text">Ik gebruik Wasupport om los te breken van WhatsApp. Probeer het uit: watomatic.app</string>
     <string name="share">Delen</string>
-    <string name="share_subject">Watomatic: Auto-reactie voor WhatsApp</string>
+    <string name="share_subject">Wasupport: Auto-reactie voor WhatsApp</string>
     <string name="watomatic_subreddit_label"><u>Laten we bespreken\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">Wat is er nieuw?</string>
     <!-- Share debug logs -->
@@ -54,8 +54,8 @@
     <string name="enable_auto_start_label">Automatisch starten inschakelen</string>
     <string name="enabled_apps_title">Ingeschakelde apps</string>
     <string name="always_on_notification">Always-On notificatie</string>
-    <string name="display_persistent_notification_summary">Toon een aanhoudende melding om ervoor te zorgen dat Watomatic niet wordt gestopt door het systeem</string>
-    <string name="enable_auto_start_summary">Sommige apparaten vereisen mogelijk dat je Auto start voor Watomatic handmatig inschakelt vanuit de instellingen van het apparaat</string>
+    <string name="display_persistent_notification_summary">Toon een aanhoudende melding om ervoor te zorgen dat Wasupport niet wordt gestopt door het systeem</string>
+    <string name="enable_auto_start_summary">Sommige apparaten vereisen mogelijk dat je Auto start voor Wasupport handmatig inschakelt vanuit de instellingen van het apparaat</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
     <!-- Language codes (non translatable) -->
@@ -78,7 +78,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">AutoStart-machtiging</string>
     <string name="running_in_the_background">Wordt op de achtergrond uitgevoerd</string>
-    <string name="auto_start_permission_dialog_message">Schakel \"Auto Start\" toestemming in bij apparaatinstellingen om Watomatic te laten starten bij het opnieuw opstarten van het apparaat.</string>
+    <string name="auto_start_permission_dialog_message">Schakel \"Auto Start\" toestemming in bij apparaatinstellingen om Wasupport te laten starten bij het opnieuw opstarten van het apparaat.</string>
     <string name="device_based_settings_message">Opmerking: Instellingen kunnen variëren of niet beschikbaar zijn op basis van je apparaat</string>
     <string name="setting_not_available_for_device">Deze instelling is niet beschikbaar of is mogelijk niet nodig voor je apparaat.</string>
     <string name="enable_auto_start_setting">Doorgaan</string>

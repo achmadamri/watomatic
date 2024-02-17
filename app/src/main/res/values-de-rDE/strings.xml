@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
-    <string name="about">Über Watomatic</string>
+    <string name="app_name">Wasupport</string>
+    <string name="about">Über Wasupport</string>
     <string name="settings">Einstellungen</string>
     <string name="privacy_policy_label">Datenschutzerklärung</string>
     <string name="service_name">Benachrichtigungs-Listener</string>
@@ -37,11 +37,11 @@
     <!-- Custom message editor -->
     <string name="save">Speichern</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Vorlagen aus der Community ansehen und eigene teilen ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Watomatic-Link anhängen, um uns zu unterstützen. Danke!</string>
+    <string name="append_watomatic_arribution_checkbox_label">Wasupport-Link anhängen, um uns zu unterstützen. Danke!</string>
     <string name="sent_using_Watomatic">Gesendet mit watomatic.app</string>
-    <string name="share_app_text">Ich benutze Watomatic, um mich von WhatsApp zu lösen. Probiere es aus: watomatic.app</string>
+    <string name="share_app_text">Ich benutze Wasupport, um mich von WhatsApp zu lösen. Probiere es aus: watomatic.app</string>
     <string name="share">Teilen</string>
-    <string name="share_subject">Watomatic: Automatische Antwort für WhatsApp</string>
+    <string name="share_subject">Wasupport: Automatische Antwort für WhatsApp</string>
     <string name="watomatic_community_label"><u>Community</u></string>
     <string name="watomatic_subreddit_label"><u>Lass uns diskutieren\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">Was ist neu?</string>
@@ -56,8 +56,8 @@
     <string name="add_attribution_label">Attribut hinzufügen</string>
     <string name="enabled_apps_title">Aktivierte Apps</string>
     <string name="always_on_notification">Ständige Benachrichtigungen</string>
-    <string name="display_persistent_notification_summary">Zeigt eine dauerhafte Benachrichtigung an, um sicherzustellen, dass Watomatic nicht vom System beendet wird</string>
-    <string name="enable_auto_start_summary">Einige Geräte könnten es erfordern, Auto-Start in den Geräteeinstellungen für Watomatic manuell zu aktivieren</string>
+    <string name="display_persistent_notification_summary">Zeigt eine dauerhafte Benachrichtigung an, um sicherzustellen, dass Wasupport nicht vom System beendet wird</string>
+    <string name="enable_auto_start_summary">Einige Geräte könnten es erfordern, Auto-Start in den Geräteeinstellungen für Wasupport manuell zu aktivieren</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
     <!-- Language codes (non translatable) -->
@@ -81,7 +81,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">Auto-Start Berechtigung</string>
     <string name="running_in_the_background">Läuft im Hintergrund</string>
-    <string name="auto_start_permission_dialog_message">Erlaube die Auto-Start Berechtigung in den Geräteeinstellungen, um Watomatic automatisch zu starten.</string>
+    <string name="auto_start_permission_dialog_message">Erlaube die Auto-Start Berechtigung in den Geräteeinstellungen, um Wasupport automatisch zu starten.</string>
     <string name="device_based_settings_message">Beachte: Einstellungen können variieren oder auf deinem Gerät nicht verfügbar sein</string>
     <string name="setting_not_available_for_device">Diese Einstellung ist nicht verfügbar oder wird für dein Gerät möglicherweise nicht benötigt.</string>
     <string name="enable_auto_start_setting">Weiter</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="about">பற்றி</string>
     <string name="settings">அமைப்புகள்</string>
     <string name="privacy_policy_label">தனியுரிமைக் கொள்கை</string>
@@ -37,11 +37,11 @@
     <!-- Custom message editor -->
     <string name="save">சேமி</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Community-லிருந்து வார்ப்புருக்களைக் காண்க, உங்களுடையதையும் பகிரவும் ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Watomatic செயலி பற்றிய தகவலை இணைத்து அனுப்பவும்.</string>
+    <string name="append_watomatic_arribution_checkbox_label">Wasupport செயலி பற்றிய தகவலை இணைத்து அனுப்பவும்.</string>
     <string name="sent_using_Watomatic">watomatic.app - பயன்படுத்தி அனுப்பப்பட்டது</string>
-    <string name="share_app_text">வாட்ஸ்அப்பில் இருந்து விலகிச் செல்ல நான் Watomatic செயலியை பயன்படுத்துகிறேன். முயற்சி செய்து பாருங்கள்: watomatic.app</string>
+    <string name="share_app_text">வாட்ஸ்அப்பில் இருந்து விலகிச் செல்ல நான் Wasupport செயலியை பயன்படுத்துகிறேன். முயற்சி செய்து பாருங்கள்: watomatic.app</string>
     <string name="share">பகிர்</string>
-    <string name="share_subject">Watomatic: Whatsapp தானியங்கு பதில்</string>
+    <string name="share_subject">Wasupport: Whatsapp தானியங்கு பதில்</string>
     <string name="watomatic_subreddit_label"><u>விவாதிக்கலாம்\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">புதியவை என்ன</string>
     <!-- Share debug logs -->
@@ -53,7 +53,7 @@
     <string name="preference_category_troubleshooting_label">பழுது கண்டறிதல்</string>
     <string name="enable_auto_start_label">தானாகத் தொடங்குவதை இயக்கு</string>
     <string name="add_attribution_label">பண்புகளை சேர்</string>
-    <string name="enable_auto_start_summary">சில சாதனங்களில் நீங்களாக சாதனத்தின் அமைப்புகளுக்கு சென்று Watomatic தானாக தொடங்க அனுமதிக்க வேண்டும்</string>
+    <string name="enable_auto_start_summary">சில சாதனங்களில் நீங்களாக சாதனத்தின் அமைப்புகளுக்கு சென்று Wasupport தானாக தொடங்க அனுமதிக்க வேண்டும்</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
     <!-- Language codes (non translatable) -->

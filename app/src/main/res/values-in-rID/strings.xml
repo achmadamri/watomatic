@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
+    <string name="app_name">Wasupport</string>
     <string name="about">Tentang</string>
     <string name="settings">Pengaturan</string>
     <string name="privacy_policy_label">Kebijakan Privasi</string>
@@ -37,11 +37,11 @@
     <!-- Custom message editor -->
     <string name="save">Simpan</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Lihat template dari komunitas dan bagikan milik Anda juga ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Tambahkan arribusi Watomatic untuk membantu menyebarkan berita</string>
+    <string name="append_watomatic_arribution_checkbox_label">Tambahkan arribusi Wasupport untuk membantu menyebarkan berita</string>
     <string name="sent_using_Watomatic">Dikirim menggunakan watomatic.app</string>
-    <string name="share_app_text">Saya menggunakan Watomatic untuk melepaskan diri dari WhatsApp. Cobalah: watomatic.app</string>
+    <string name="share_app_text">Saya menggunakan Wasupport untuk melepaskan diri dari WhatsApp. Cobalah: watomatic.app</string>
     <string name="share">Bagikan</string>
-    <string name="share_subject">Watomatic: Balasan Otomatis untuk WhatsApp</string>
+    <string name="share_subject">Wasupport: Balasan Otomatis untuk WhatsApp</string>
     <string name="watomatic_subreddit_label"><u>Mari diskusi\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">Apa yang Baru?</string>
     <!-- Share debug logs -->
@@ -55,7 +55,7 @@
     <string name="add_attribution_label">Tambahkan Atribusi</string>
     <string name="enabled_apps_title">Aplikasi yang Diaktifkan</string>
     <string name="always_on_notification">Notifikasi Selalu Aktif</string>
-    <string name="display_persistent_notification_summary">Tampilkan pemberitahuan terus-menerus untuk memastikan Watomatic tidak dimatikan oleh sistem</string>
+    <string name="display_persistent_notification_summary">Tampilkan pemberitahuan terus-menerus untuk memastikan Wasupport tidak dimatikan oleh sistem</string>
     <string name="enable_auto_start_summary">Beberapa perangkat mungkin memerlukan Anda untuk mengaktifkan Mulai otomatis untuk Otomatis dari pengaturan perangkat secara manual</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
@@ -80,7 +80,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">Izin Mulai Otomatis</string>
     <string name="running_in_the_background">Berjalan di belakang</string>
-    <string name="auto_start_permission_dialog_message">Aktifkan izin \"Mulai Otomatis\" di pengaturan perangkat untuk memungkinkan Watomatic memulai saat perangkat dihidupkan ulang.</string>
+    <string name="auto_start_permission_dialog_message">Aktifkan izin \"Mulai Otomatis\" di pengaturan perangkat untuk memungkinkan Wasupport memulai saat perangkat dihidupkan ulang.</string>
     <string name="device_based_settings_message">Catatan: Pengaturan dapat bervariasi atau mungkin tidak tersedia berdasarkan perangkat Anda</string>
     <string name="setting_not_available_for_device">Pengaturan ini tidak tersedia atau mungkin tidak diperlukan untuk perangkat Anda.</string>
     <string name="enable_auto_start_setting">Diproses</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Watomatic</string>
-    <string name="about">За Watomatic</string>
+    <string name="app_name">Wasupport</string>
+    <string name="about">За Wasupport</string>
     <string name="settings">Поставки</string>
     <string name="privacy_policy_label">Политика за приватност</string>
     <string name="service_name">Следење на известувања за дојдовни пораки</string>
@@ -37,11 +37,11 @@
     <!-- Custom message editor -->
     <string name="save">Зачувај</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Прегледајте ги шаблоните од заедницата и споделете ги и вашите ➚</u></string>
-    <string name="append_watomatic_arribution_checkbox_label">Додадете Watomatic препорака за да ги известите другите за оваа апликација</string>
+    <string name="append_watomatic_arribution_checkbox_label">Додадете Wasupport препорака за да ги известите другите за оваа апликација</string>
     <string name="sent_using_Watomatic">Испратено со watomatic.app</string>
-    <string name="share_app_text">Јас го користам Watomatic за да го напуштам WhatsApp. Обидете се и вие: watomatic.app</string>
+    <string name="share_app_text">Јас го користам Wasupport за да го напуштам WhatsApp. Обидете се и вие: watomatic.app</string>
     <string name="share">Сподели</string>
-    <string name="share_subject">Watomatic: Автоматски одговори за WhatsApp</string>
+    <string name="share_subject">Wasupport: Автоматски одговори за WhatsApp</string>
     <string name="watomatic_subreddit_label"><u>Ајде да дискутираме\nr/watomatic</u></string>
     <string name="watomatic_whatsnew_label">Што е ново?</string>
     <!-- Share debug logs -->
@@ -54,7 +54,7 @@
     <string name="enable_auto_start_label">Овозможи автоматско стартување</string>
     <string name="add_attribution_label">Додај атрибут</string>
     <string name="enabled_apps_title">Овозможени апликации</string>
-    <string name="enable_auto_start_summary">На некои можеби ќе треба рачно да вклучите Автоматско Стартување за Watomatic во поставките на уредот</string>
+    <string name="enable_auto_start_summary">На некои можеби ќе треба рачно да вклучите Автоматско Стартување за Wasupport во поставките на уредот</string>
     <!-- Local language names (non translatable) -->
     <!-- Basque -->
     <!-- Language codes (non translatable) -->
@@ -77,7 +77,7 @@
     <!--Autostart Permission Dialog-->
     <string name="auto_start_permission_dialog_title">Дозвола за автоматско стартување</string>
     <string name="running_in_the_background">Работи во позадина</string>
-    <string name="auto_start_permission_dialog_message">Овозможете дозвола \"Автоматско стартување\" во поставките на уредот за да дозволите Watomatic да се вклучи на уредот по рестартирање.</string>
+    <string name="auto_start_permission_dialog_message">Овозможете дозвола \"Автоматско стартување\" во поставките на уредот за да дозволите Wasupport да се вклучи на уредот по рестартирање.</string>
     <string name="device_based_settings_message">Забелешка: Во зависност од вашиот уред, поставките може да бидат различни или да не се достапни</string>
     <string name="setting_not_available_for_device">Оваа поставка не е достапна или можеби не е потребна за вашиот уред.</string>
     <string name="enable_auto_start_setting">Продолжи</string>
