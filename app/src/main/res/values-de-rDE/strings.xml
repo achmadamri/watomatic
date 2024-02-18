@@ -38,8 +38,8 @@
     <string name="save">Speichern</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Vorlagen aus der Community ansehen und eigene teilen ➚</u></string>
     <string name="append_watomatic_arribution_checkbox_label">Wasupport-Link anhängen, um uns zu unterstützen. Danke!</string>
-    <string name="sent_using_Watomatic">Gesendet mit watomatic.app</string>
-    <string name="share_app_text">Ich benutze Wasupport, um mich von WhatsApp zu lösen. Probiere es aus: watomatic.app</string>
+    <string name="sent_using_Watomatic">Gesendet mit wasupport.app</string>
+    <string name="share_app_text">Ich benutze Wasupport, um mich von WhatsApp zu lösen. Probiere es aus: wasupport.app</string>
     <string name="share">Teilen</string>
     <string name="share_subject">Wasupport: Automatische Antwort für WhatsApp</string>
     <string name="watomatic_community_label"><u>Community</u></string>

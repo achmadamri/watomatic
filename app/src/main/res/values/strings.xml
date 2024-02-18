@@ -45,9 +45,9 @@
     <string name="save">Save</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>View templates from community and share yours too ➚</u></string>
     <string name="append_watomatic_arribution_checkbox_label">Append Wasupport arribution to help spread the word</string>
-    <string name="sent_using_Watomatic">Sent using watomatic.app</string>
+    <string name="sent_using_Watomatic">Sent using wasupport.app</string>
 
-    <string name="share_app_text">I am using Wasupport to break away from WhatsApp. Try it out: watomatic.app</string>
+    <string name="share_app_text">I am using Wasupport to break away from WhatsApp. Try it out: wasupport.app</string>
     <string name="share">Share</string>
     <string name="share_subject">Wasupport: Auto Reply for WhatsApp</string>
     <string name="watomatic_community_label"><u>Community</u></string>

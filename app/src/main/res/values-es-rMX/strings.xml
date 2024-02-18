@@ -39,8 +39,8 @@
     <string name="save">Guardar</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Ver plantillas de la comunidad y compartir las tuyas tambien ➚</u></string>
     <string name="append_watomatic_arribution_checkbox_label">Añadir atribución a Wasupport para ayudar a difundir la palabra</string>
-    <string name="sent_using_Watomatic">Enviado a través de watomatic.app</string>
-    <string name="share_app_text">Estoy usando Wasupport para abandonar WhatsApp. ¡Pruébalo: watomatic.app</string>
+    <string name="sent_using_Watomatic">Enviado a través de wasupport.app</string>
+    <string name="share_app_text">Estoy usando Wasupport para abandonar WhatsApp. ¡Pruébalo: wasupport.app</string>
     <string name="share">Compartir</string>
     <string name="share_subject">Wasupport: Respuesta automática para WhatsApp</string>
     <string name="watomatic_community_label"><u>Comunidad</u></string>

@@ -38,8 +38,8 @@
     <string name="save">Zapisz</string>
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Zobacz szablony społeczności i udostępnij swoje ➚</u></string>
     <string name="append_watomatic_arribution_checkbox_label">Dołącz Wasupport, aby pomóc w rozpowszechnieniu tego słowa</string>
-    <string name="sent_using_Watomatic">Wysłano używając watomatic.app</string>
-    <string name="share_app_text">Używam Wasupport do przerw od WhatsApp. Spróbuj: watomatic.app</string>
+    <string name="sent_using_Watomatic">Wysłano używając wasupport.app</string>
+    <string name="share_app_text">Używam Wasupport do przerw od WhatsApp. Spróbuj: wasupport.app</string>
     <string name="share">Udostępnij</string>
     <string name="share_subject">Wasupport: Automatyczna odpowiedź dla WhatsApp</string>
     <string name="watomatic_community_label"><u>Społeczność</u></string>

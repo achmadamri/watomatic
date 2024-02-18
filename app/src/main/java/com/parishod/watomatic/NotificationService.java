@@ -2,6 +2,7 @@ package com.parishod.watomatic;
 
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
@@ -16,17 +17,55 @@ import com.parishod.watomatic.model.utils.ContactsHelper;
 import com.parishod.watomatic.model.utils.DbUtils;
 import com.parishod.watomatic.model.utils.NotificationHelper;
 import com.parishod.watomatic.model.utils.NotificationUtils;
+import com.parishod.watomatic.service.ApiService;
 
 import static java.lang.Math.max;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class NotificationService extends NotificationListenerService {
     private final String TAG = NotificationService.class.getSimpleName();
     CustomRepliesData customRepliesData;
     private DbUtils dbUtils;
 
+    // Executor service with a fixed thread pool for async operations
+    private ExecutorService executorService;
+    private ApiService apiService = new ApiService();
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        // Initialize your executor with the desired number of threads
+        executorService = Executors.newFixedThreadPool(4); // Example: 4 threads
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        // Shutdown the executor service when the service is destroyed
+        if (executorService != null && !executorService.isShutdown()) {
+            executorService.shutdown();
+        }
+    }
+
     @Override
     public void onNotificationPosted(StatusBarNotification sbn) {
         super.onNotificationPosted(sbn);
+
+        // Execute async task in the executor service
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                // Perform long-running operations here
+                // For example, database operations or network requests
+                // Make sure to not perform UI operations directly from here
+                String question = "Berapa kira2 ukuran kepitingnya?";
+
+                apiService.postQuestion(question);
+            }
+        });
+
         if (canReply(sbn) && shouldReply(sbn)) {
             sendReply(sbn);
         }

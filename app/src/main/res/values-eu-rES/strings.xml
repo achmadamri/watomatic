@@ -39,7 +39,7 @@
     <string name="tip_view_messages_from_fellow_users">🦩 <u>Ikusi komunitatearen txantiloiak eta partekatu zeureak ere ➚</u></string>
     <string name="append_watomatic_arribution_checkbox_label">Gehitu Wasupport aitortza hitza zabaltzen laguntzeko</string>
     <string name="sent_using_Watomatic">Wasupport.app bidez bidalia</string>
-    <string name="share_app_text">Wasupport erabiltzen ari naiz Whatsappetik askatzeko. Probatu zeuk ere: watomatic.app</string>
+    <string name="share_app_text">Wasupport erabiltzen ari naiz Whatsappetik askatzeko. Probatu zeuk ere: wasupport.app</string>
     <string name="share">Partekatu</string>
     <string name="share_subject">Wasupport: Erantzun automatikoa WhatsApperako</string>
     <string name="watomatic_subreddit_label"><u>Eztabaida dezagun\nr/watomatic</u></string>

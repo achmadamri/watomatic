@@ -11,11 +11,12 @@
         android:layout_width="397dp"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:paddingTop="45dp"
         android:gravity="center"
         android:maxLines="2"
+        android:paddingTop="45dp"
         android:text="@string/app_name"
         android:textSize="25sp"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,9 +25,10 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
         android:text="@string/to_help_you_leave_whatsapp"
         android:textAlignment="center"
-        android:paddingBottom="15dp"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -170,7 +172,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="@string/groupReplySwitchLabel" />
+            android:text="@string/groupReplySwitchLabel"
+            android:visibility="gone" />
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Reply frequency Time picker -->
@@ -184,7 +187,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/timePickerTitle"
@@ -193,9 +197,9 @@
                 android:paddingStart="20dp"
                 android:paddingTop="5dp"
                 android:paddingEnd="10dp"
-                android:textSize="16sp"
-                android:textColor="?attr/colorOnSurface"
                 android:text="@string/time_picker_title"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -204,54 +208,54 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:maxWidth="250dp"
                 android:maxLines="3"
                 android:paddingStart="20dp"
                 android:paddingEnd="10dp"
                 android:paddingBottom="10dp"
-                android:maxWidth="250dp"
-                android:textSize="12sp"
                 android:text="@string/time_picker_sub_title_default"
+                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/timePickerTitle"/>
+                app:layout_constraintTop_toBottomOf="@+id/timePickerTitle" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/frequencySetterWidget"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent">
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
                     android:id="@+id/imgMinus"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
+                    android:contentDescription="@string/decrease_frequency"
                     android:src="@drawable/minus"
-                    app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:contentDescription="@string/decrease_frequency" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/timeSelectedText"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text=""
-                    android:textSize="20sp"
                     android:gravity="center_horizontal"
+                    android:text=""
                     android:textColor="?attr/colorOnSurface"
-                    app:layout_constraintTop_toTopOf="@+id/imgMinus"
+                    android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="@id/imgMinus"
-                    app:layout_constraintStart_toEndOf="@+id/imgMinus"/>
+                    app:layout_constraintStart_toEndOf="@+id/imgMinus"
+                    app:layout_constraintTop_toTopOf="@+id/imgMinus" />
 
                 <ImageView
                     android:id="@+id/imgPlus"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
+                    android:contentDescription="@string/increase_frequency"
                     android:src="@drawable/plus"
                     app:layout_constraintStart_toEndOf="@+id/timeSelectedText"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:contentDescription="@string/increase_frequency" />
+                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
