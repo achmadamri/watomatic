@@ -12,6 +12,11 @@ public class ApiService {
     private static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
     private OkHttpClient client;
 
+    public interface ApiResponseCallback {
+        void onSuccess(String responseData);
+        void onFailure(Exception e);
+    }
+
     public ApiService() {
         // Initialize OkHttpClient with custom timeout settings
         client = new OkHttpClient.Builder()
@@ -21,7 +26,7 @@ public class ApiService {
                 .build();
     }
 
-    public void postQuestion(String question) {
+    public void postQuestion(String question, ApiResponseCallback callback) {
         new Thread(() -> {
             try {
                 String url = "http://192.168.31.184:7091/api/answer";
@@ -37,13 +42,14 @@ public class ApiService {
                         .build();
 
                 Response response = client.newCall(request).execute();
-                // Use the response (Make sure this is done on the UI thread if updating UI)
+                // Assuming the response body is not null and is successful
                 String responseData = response.body().string();
-                // Log or handle the response data
-                System.out.println("responseData:" + responseData);
+                // Pass the response data to the callback
+                callback.onSuccess(responseData);
             } catch (Exception e) {
                 e.printStackTrace();
-                // Handle the error
+                // Pass the error to the callback
+                callback.onFailure(e);
             }
         }).start();
     }
@@ -55,6 +61,6 @@ public class ApiService {
                 + "\"active_docs\":\"local/5_Cara_Budidaya_Kepiting_Bakau_di_Rumah_yang_Cocok_bagi_Pemula___kumparan.com.pdf/\","
                 + "\"history\":[],"
                 + "\"conversation_id\":null,"
-                + "\"prompt_id\":\"strict\"}";
+                + "\"prompt_id\":\"default\"}";
     }
 }

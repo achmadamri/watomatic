@@ -1,5 +1,6 @@
 package com.parishod.watomatic;
 
+import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -21,6 +22,9 @@ import com.parishod.watomatic.service.ApiService;
 
 import static java.lang.Math.max;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -32,6 +36,8 @@ public class NotificationService extends NotificationListenerService {
     // Executor service with a fixed thread pool for async operations
     private ExecutorService executorService;
     private ApiService apiService = new ApiService();
+
+    private String questionHist = "";
 
     @Override
     public void onCreate() {
@@ -53,21 +59,49 @@ public class NotificationService extends NotificationListenerService {
     public void onNotificationPosted(StatusBarNotification sbn) {
         super.onNotificationPosted(sbn);
 
-        // Execute async task in the executor service
-        executorService.execute(new Runnable() {
-            @Override
-            public void run() {
-                // Perform long-running operations here
-                // For example, database operations or network requests
-                // Make sure to not perform UI operations directly from here
-                String question = "Berapa kira2 ukuran kepitingnya?";
-
-                apiService.postQuestion(question);
-            }
-        });
-
         if (canReply(sbn) && shouldReply(sbn)) {
-            sendReply(sbn);
+            // Execute async task in the executor service
+            executorService.execute(new Runnable() {
+                @Override
+                public void run() {
+                    // Perform long-running operations here
+                    // For example, database operations or network requests
+                    // Make sure to not perform UI operations directly from here
+                    String question = sbn.getNotification().extras.getString(Notification.EXTRA_TEXT);
+
+                    if (!question.equals(questionHist)) {
+                        Log.d(TAG, "question : " + question);
+
+                        questionHist = question;
+
+                        apiService.postQuestion(question, new ApiService.ApiResponseCallback() {
+                            @Override
+                            public void onSuccess(String responseData) {
+                                // Handle successful response here
+                                // Convert the responseData string to a JSONObject
+                                JSONObject jsonResponse = null;
+                                try {
+                                    jsonResponse = new JSONObject(responseData);
+
+                                    String answer = jsonResponse.getString("answer");
+
+                                    Log.d(TAG, "answer : " + answer);
+
+                                    sendReply(sbn, answer);
+                                } catch (JSONException e) {
+                                    throw new RuntimeException(e);
+                                }
+                            }
+
+                            @Override
+                            public void onFailure(Exception e) {
+                                // Handle failure here, such as logging the error
+                                e.printStackTrace();
+                            }
+                        });
+                    }
+                }
+            });
         }
     }
 
@@ -114,7 +148,7 @@ public class NotificationService extends NotificationListenerService {
         return START_STICKY;
     }
 
-    private void sendReply(StatusBarNotification sbn) {
+    private void sendReply(StatusBarNotification sbn, String answer) {
         NotificationWear notificationWear = NotificationUtils.extractWearNotification(sbn);
         // Possibly transient or non-user notification from WhatsApp like
         // "Checking for new messages" or "WhatsApp web is Active"
@@ -133,7 +167,7 @@ public class NotificationService extends NotificationListenerService {
         for (RemoteInput remoteIn : notificationWear.getRemoteInputs()) {
             remoteInputs[i] = remoteIn;
             // This works. Might need additional parameter to make it for Hangouts? (notification_tag?)
-            localBundle.putCharSequence(remoteInputs[i].getResultKey(), customRepliesData.getTextToSendOrElse());
+            localBundle.putCharSequence(remoteInputs[i].getResultKey(), answer);
             i++;
         }
 
